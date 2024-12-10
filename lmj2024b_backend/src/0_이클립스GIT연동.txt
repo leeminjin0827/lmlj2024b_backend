@@ -22,3 +22,7 @@
 		
 	10. [최초로 커밋/푸쉬]
 		프로젝트명 오른쪽클릭 -> team -> commit
+		[ unstaged changes ] : 커밋 전 , 수정된 파일
+		[ staged changes ] : 커밋 할 파일 -
+		[ commit message ] : 커밋 내용
+		- [commit and push ] 클릭
