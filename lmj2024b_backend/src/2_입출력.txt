@@ -27,7 +27,7 @@
 		
 	2. 사용 : scan.nextXXX()
 		- 입력함수 종류
-			.next() , .nextLine() , .ndexByte() , .nextShort() ,
+			.next() , .nextLine() , .nextByte() , .nextShort() ,
 			.nextInt() , .nextLong() , .nextFloat() , .nextDouble() 등등
 		 
 	3. 주의할점
