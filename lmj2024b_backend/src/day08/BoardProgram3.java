@@ -1,4 +1,11 @@
 package day08;
+/*
+실습3 : 게시판 프로그램 - v3
+- 문법 : 변수 , 입출력함수 , 연산자 , 제어문(조건문/반복문) , 클래스/객체 , 배열
+- 제목 , 내용 , 작성자 를 입력받아서 저장/출력 구현
+- 게시물 클래스 설계 하기.
+- 게시물 최대 100개 저장 하기 , 게시물1개당 객체 1개 필요 , 객체1개당 3개의 멤버변수를 갖는다.
+*/
 
 import java.util.Scanner;
 
@@ -35,7 +42,7 @@ public class BoardProgram3 {
 				for( int index = 0; index <= boardArray.length - 1 ; index++ ) {
 					// 8-1 : index는 0부터 마지막 인덱스까지 1씩 증가하면서 반복처리
 					if( boardArray[index] == null ) {
-						// 8-2 : 배열내 inde번째 요소가 null 이면 , 게시물객체가 없으면 
+						// 8-2 : 배열내 index번째 요소가 null 이면 , 게시물객체가 없으면 
 						boardArray[index] = board; // 해당 인덱스의 새로 만든 (게시물)객체 대입하기.
 						saveState = true ; // - 저장 여부 상태 변경
 						break; // - 가장 가까운 반복문 종료 // for 안에서 원하는 목표를 이뤘기 때문에
