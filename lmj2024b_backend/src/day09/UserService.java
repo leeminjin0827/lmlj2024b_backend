@@ -31,7 +31,7 @@ public class UserService {
 		for( int index = 0 ; index <=users.length - 1 ; index++ ) {
 			if( users[index] != null ) {
 				User user = users[index];
-				System.out.printf("전화번호 : %s , 인원수 : %s \n" ,
+				System.out.printf("순번 : %d , 전화번호 : %s , 인원수 : %d \n" ,
 						index , user.phone , user.number );
 			}
 		}
