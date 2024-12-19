@@ -20,10 +20,17 @@ public class PlayerService {
 		boolean savee = false;
 		for( int index = 0 ; index <= players.length - 1 ; index++ ) {
 			if( players[index] == null ) {
-				players[index] = player;
-				savee = true;
-				break;
-			} // i end
+				for( int i = 0 ; i <= players.length - 1 ; i++ ) {
+					players[index] = player;
+					if( players[index].id == id ) {
+						savee = true;
+						break;
+					} // i end
+					if( players[index].id != id ) {
+						savee = false;
+					} // i end
+				} // f end	
+			}else { savee = false; }
 		} // f end
 		if(savee) { System.out.println("등록"); }
 		else { System.out.println("실패"); }
@@ -46,3 +53,20 @@ public class PlayerService {
 		} // f end
 	} // m end
 } // c end
+
+
+/*
+ 
+ 1. 기본타입 : boolean char byte short int long float double (*8*)
+ 	== 기본타입 비교
+ 	
+ 2. 참조/클래스타입 : String , Scanner , Member , MemberSerbice ( 8개 외 )
+ 	.equals() 참조타입 비교 함수
+  
+*/ 
+ 
+ 
+ 
+ 
+ 
+ 

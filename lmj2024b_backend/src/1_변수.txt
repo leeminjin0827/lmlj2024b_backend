@@ -79,3 +79,10 @@
 		- 2. 데이터의 (허용범위 외)손실이 있을수도 있다.
 		- 3. (변환할타입명)변수명
 		- 4. double -> float -> long -> int -> short -> char -> byte
+		
+		
+		1  byte ~127          boolean
+		2  short ~3만         char '' 유니코드/ String ?바이트 ""문자열클래스   
+		4  int  ~ 21억정도     float 8자리 
+		8  long 21억 이상      double 17자리
+		
