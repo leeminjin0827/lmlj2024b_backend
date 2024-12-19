@@ -39,7 +39,7 @@ public class PlayerService {
 			if( players[index] != null ) {
 				if( ID.equals(players[index].id) && PW.equals(players[index].pw)) {
 					System.out.println("로그인 성공");
-				}else {
+				}else if (ID.equals(players[index].id) != PW.equals(players[index].pw)) {
 					System.out.println("로그인 실패");
 				}
 			} // i end

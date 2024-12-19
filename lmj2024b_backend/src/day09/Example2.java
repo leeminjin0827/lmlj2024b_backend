@@ -20,7 +20,6 @@ public class Example2 {
 	public static void main(String[] args) {
 		PlayerService ps = new PlayerService();
 		Player[] players = new Player[100];
-		
 		while(true) {
 			System.out.println("1.회원가입 2.로그인");
 			Scanner scan = new Scanner(System.in);
