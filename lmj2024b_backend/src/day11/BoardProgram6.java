@@ -6,6 +6,10 @@ import java.util.Scanner;
 public class BoardProgram6 {
 	public static void main(String[] args) {
 		
+		// *
+		BoardDto[] boards = new BoardDto[100];
+		BoardService bs = new BoardService();
+		
 		while(true) {
 		
 			System.out.print("1.등록 2.출력");
@@ -13,9 +17,9 @@ public class BoardProgram6 {
 			int choose = scan.nextInt();
 			
 			if( choose == 1 ) {
-				// 등록함수 호출
+				bs.boardAdd( scan , boards );	// 등록함수 호출
 			}else if( choose == 2 ) {
-				// 출력함수 호출
+				bs.boardPrint( boards );		// 출력함수 호출
 			} // if end
 			
 		} // w end
