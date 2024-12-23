@@ -40,7 +40,7 @@ public class Example3 {
 				String ID = scan.next();
 				System.out.println("> 비밀번호 입력 : ");
 				String PW = scan.next();
-				if( u1.equals(id) == ID  && u1.equals(pw) == PW ) {
+				if( u1.equals(ID) && u1.equals(PW) ) {
 					System.out.println("로그인성공");
 				}else if( u2.id == ID && u2.pw == PW ) {
 					System.out.println("로그인성공");
