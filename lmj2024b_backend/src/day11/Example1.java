@@ -15,13 +15,14 @@ public class Example1 {
 		BoarDto[] boars = new BoarDto[100];
 		UserService uv = new UserService();
 		BoarService bv = new BoarService();
+		boolean ussave = false;
 		while(true) {
 			System.out.println("1.로그인 2.회원가입");
 			Scanner scan = new Scanner(System.in);
 			int choose = scan.nextInt();
 			boolean saveSates = false;
 			if( choose == 1 ) {
-				uv.loginAdd( scan , users );
+				ussave = uv.loginAdd( scan , users );
 				saveSates = true;
 			}else if( choose == 2 ) {
 				uv.userAdd( scan , users );

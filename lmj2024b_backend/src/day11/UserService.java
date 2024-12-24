@@ -23,19 +23,22 @@ public class UserService {
 	} // v end(end)
 	
 	// 로그인
-	public void loginAdd( Scanner scan , UserDto[] users ) {
+	public boolean loginAdd( Scanner scan , UserDto[] users ) {
 		System.out.println(">> 로그인 <<");
 		System.out.println("아이디 입력 : "); String ID = scan.next();
 		System.out.println("비밀번호 입력 : "); String PW = scan.next();
 		
+		boolean usersave = false;
 		for( int i = 0 ; i <= users.length - 1 ; i++ ) {
 			if( users[i] != null ) {
 				if( ID.equals(users[i].getId()) && PW.equals(users[i].getPw()) ){
+					usersave = true;
 					System.out.println("로그인 성공");
 				}else if( ID.equals(users[i].getId()) || PW.equals(users[i].getPw()) ){
+					usersave = false;
 					System.out.println("로그인 실패");
 				}
-			} // if end
+			}return; // if end
 		} // f end
 	} // v end
 } // c end
