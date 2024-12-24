@@ -31,7 +31,7 @@ public class BoardProgram7 {
 			int choose = scan.nextInt();
 			if( choose == 1 ) { 
 				// 회원가입 함수 호출
-				ms.signup( scan, members );
+				ms.signUp( scan, members );
 			}
 			else if( choose == 2 ) { // 로그인 함수 호출 
 				loginId = ms.login( scan, members );

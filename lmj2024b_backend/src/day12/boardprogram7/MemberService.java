@@ -6,7 +6,7 @@ public class MemberService {
 	
 	// 1. 멤버변수 2. 생성자
 	// 3. 메소드
-	public void signup( Scanner scan , MemberDto[] members ) {
+	public void signUp( Scanner scan , MemberDto[] members ) {
 		System.out.println("아이디 입력 : "); String id = scan.next();
 		System.out.println("비밀번호 입력 : "); String pwd = scan.next();
 		System.out.println("닉네임 입력 : "); String name = scan.next();

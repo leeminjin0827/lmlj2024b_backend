@@ -6,7 +6,7 @@ public class BoardDto {
 	private String writer;
 	
 	public BoardDto() {}
-	public BoardDto( String title , String content , String wrier ){
+	public BoardDto( String title , String content , String writer ){
 		this.title  = title;
 		this.content = content;
 		this.writer = writer;

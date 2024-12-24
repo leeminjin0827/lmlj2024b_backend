@@ -30,9 +30,9 @@ public class BoardService {
 			if( boards[index] != null ) {
 				System.out.printf(" %d \t %s \t %s \t %s \n" ,
 						index ,
-						boards[index].getContent() ,
+						boards[index].getWriter() ,
 						boards[index].getTitle() ,
-						boards[index].getWriter() );
+						boards[index].getContent() );
 			}
 		}
 	} // v end
