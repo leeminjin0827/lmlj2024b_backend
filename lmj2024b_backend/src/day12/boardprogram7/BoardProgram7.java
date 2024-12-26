@@ -53,7 +53,6 @@ public class BoardProgram7 {
 					} // w end
 				}
 			}
-			
 		} // w end
 	} // m end
 } // c end
