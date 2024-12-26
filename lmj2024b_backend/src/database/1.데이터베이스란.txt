@@ -52,6 +52,14 @@
 
 
 
+	[프론트엔드]			  				[ 백엔드 ]
+	HTML/CSS/JS ----------통신----------> JAVA --------------------> db(mysql)
+
+	1. [프론트엔드] HTML/CSS/JS
+	2. [ 백엔드 ] JAVA/DB
+	3. [ 웹개발 ] HTML/CSS/JS(JSP)		<-----------> JAVA(서블릿)	/ DB
+	4. [ 웹개발 ] REACT(HTML/CSS/JS) 		<-----------> JAVA(SPRING)	/ DB
+	5. [ 앱개발 ] 플러터 			 		<-----------> JAVA(SPRING)	/ DB
 
 
 
