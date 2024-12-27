@@ -105,7 +105,7 @@
 				  ----------------->			 ------------------>
 				          X								 X 
 				  <-----------------			 <------------------
-			[ ArrayList<BoasedDto> ] boards	 [ ArrayList<BoasedDto>  ] boards
+			[ ArrayList<BoardDto> ] boards	 [ ArrayList<BoardDto>  ] boards
 				 				 
 게시물삭제
 	- [int] dIndex : 삭제가 가능하도록 고유한 식별번호 , 인덱스 , 게시물번호
@@ -117,7 +117,7 @@
 				  [boolean]true/false			 [boolean]true/false
 
 게시물수정 
-	- [int] uIndex ,[BOardDto] boardDto : 수정시 수정할 식별번호 와 수정할 값들을(객체) 보낸다.
+	- [int] uIndex ,[BoardDto] boardDto : 수정시 수정할 식별번호 와 수정할 값들을(객체) 보낸다.
 	- [boolean] true/false : dao 에서 수정 처리 성공/실패 여부를 true/false 로 구성하여 반환
 				  ----------------->			 ------------------>
 				    [int] uIndex ,					[int] uIndex ,
