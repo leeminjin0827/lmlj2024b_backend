@@ -66,6 +66,7 @@ public class ClassView {
 	// 4. 수업 수정 페이지 함수
 	public void update() { System.out.println("== 수정 ==");
 		// 수정할 정보 입력 받기
+		System.out.println("== 수업번호를 잘 적어주세요. ==");
 		System.out.println("수업번호 입력 : "); 	int uCode = scan.nextInt();
 		System.out.println("수업명 입력 : ");		String name = scan.next();
 		System.out.println("강사명 입력 : ");		String teacher = scan.next();
