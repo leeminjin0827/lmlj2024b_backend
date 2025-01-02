@@ -7,5 +7,6 @@ create table ordert(
 	ono		int auto_increment	, # 주문 번호
     odate	datetime not null default now() , # # 주문 날짜
     arrival	datetime not null , # 배송 예상 날짜
-    today	bool not null default false  # 당일 배송 논리
+    today	bool not null default false  , # 당일 배송 논리
+    constraint primary key( ono )
 );
